@@ -19,6 +19,7 @@ import {
     file02,
     framer,
     homeSmile,
+    leaderBoard,
     instagram,
     notification2,
     notification3,
@@ -76,6 +77,11 @@ import {
       onlyMobile: true,
     },
   ];
+
+  export const heroIcons = [homeSmile, file02, searchMd, plusSquare, leaderBoard];
+
+  export const notificationImages = [notification4, notification3, notification2];
+
 
   export const aiagencyServices = [
     "Generación de fotos",
@@ -171,7 +177,7 @@ import {
       id: "0",
       title: "Crea tu marca, nosotros nos encargamos del resto",
       text: "Ingresa los datos de tu marca, tu objetivo y el logo, nosotros reconocemos los colores de tu logo y creamos una campaña publicitaria personalizada para ti.",
-      backgroundUrl: "./src/assets/benefits/card-1.svg",
+      backgroundUrl: "../src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage1,
     },
@@ -179,7 +185,7 @@ import {
       id: "1",
       title: "Inteligencia de Audiencia",
       text: "Descubre a tu audiencia ideal mediante una investigación profunda que analiza datos demográficos, intereses y comportamientos, proporcionando un target objetivo preciso para tu campaña.",
-      backgroundUrl: "./src/assets/benefits/card-2.svg",
+      backgroundUrl: "../src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage3,
       light: true,
@@ -188,7 +194,7 @@ import {
       id: "2",
       title: "Estrategia Creativa",
       text: "Desata tu creatividad con una estrategia única generada por IA que incluye el 'reason why', objetivos, tono y estilo, para cautivar a tu audiencia de manera impactante. Antes lo tenias que hacer tu, ahora lo hacemos nosotros.",
-      backgroundUrl: "./src/assets/benefits/card-3.svg",
+      backgroundUrl: "../src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
     },
@@ -196,7 +202,7 @@ import {
       id: "3",
       title: "Inspiración Ilimitada",
       text: "Obtén ideas frescas y originales para tu campaña adaptadas a cada medio de publicación, desde videos en YouTube hasta anuncios en redes sociales, todo alimentado por IA.",
-      backgroundUrl: "./src/assets/benefits/card-4.svg",
+      backgroundUrl: "../src/assets/benefits/card-4.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage4,
       light: true,
@@ -205,7 +211,7 @@ import {
       id: "4",
       title: "Planificación Eficaz",
       text: "Optimiza tu presupuesto con una tabla detallada de planificación que sugiere los mejores medios para tu campaña, todo respaldado por la inteligencia artificial.",
-      backgroundUrl: "./src/assets/benefits/card-5.svg",
+      backgroundUrl: "../src/assets/benefits/card-5.svg",
       iconUrl: benefitIcon4,
       imageUrl: benefitImage5,
     },
@@ -213,7 +219,7 @@ import {
       id: "5",
       title: "Creatividad Sin Límites",
       text: "Deja volar tu imaginación con la generación de imágenes publicitarias y textos complementarios creados por IA, listos para impactar en Instagram, Google y más.",
-      backgroundUrl: "./src/assets/benefits/card-6.svg",
+      backgroundUrl: "../src/assets/benefits/card-6.svg",
       iconUrl: benefitIcon6,
       imageUrl: benefitImage6,
     },

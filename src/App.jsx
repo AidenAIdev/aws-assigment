@@ -4,7 +4,7 @@ import Header from "./components/Header";
 "use client";
 import React from "react";
 import Hero from "./components/Hero";
-import Howtouse from "./components/Howtouse";
+import Features from "./components/Features";
 const App = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const App = () => {
     <Header />
     <ButtonGradient />
     <Hero />
-    <Howtouse />
+    <Features />
     </div>
     </>
 
