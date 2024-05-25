@@ -4,8 +4,9 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import TagLine from "./Tagline";
 
-const Howtouse = () => {
+const Features = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
@@ -64,8 +65,9 @@ const Howtouse = () => {
           ))}
         </div>
       </div>
+      <TagLine />
     </Section>
   );
 };
 
-export default Howtouse;
+export default Features;

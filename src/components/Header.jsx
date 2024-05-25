@@ -65,10 +65,10 @@ const Header = () => {
         </div>
         <HamburgerMenu />
             </nav>
-            <a href="https://aiagency.app/" className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block" >
+            <a href="https://www.aiagency.app/" className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block" >
                 Nueva Cuenta
             </a>
-            <Button className="hidden lg:flex" href="https://aiagency.app/">
+            <Button className="hidden lg:flex" href="https://www.aiagency.app/">
                 Ingresar
             </Button>
             <Button
